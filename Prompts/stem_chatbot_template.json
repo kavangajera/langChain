@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "explanation_type",
+        "question",
+        "topics"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\nYou are a helpful STEM chatbot. Answer the question based on the selected topics and explanation type.\nQuestion: {question}\nSelected Topics: {topics}\nExplanation Type: {explanation_type}\n",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
